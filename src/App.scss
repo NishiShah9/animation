@@ -1,0 +1,431 @@
+// * {
+//   margin: 0;
+//   padding: 0;
+//   box-sizing: border-box;
+// }
+
+// body {
+//   width: 100%;
+//   height: 100%;
+//   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+//     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+//   overflow: hidden;
+// }
+
+// .slider-one,
+// .slider-two,
+// .slider-three,
+// .slider-four {
+//   width: 100%;
+//   height: 100vh;
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   animation: slider-one 12s linear infinite;
+
+//   .slider-one-image,
+//   .slider-two-image,
+//   .slider-three-image,
+//   .slider-four-image {
+//     width: 110%;
+//     height: 100%;
+//     background-image: url("./1.1.jpg");
+//     background-position: center;
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//     // animation: zoom-out 3s linear infinite;
+
+//     .slider-text {
+//       position: absolute;
+//       top: 30%;
+//       left: 5%;
+//       color: #ffffff;
+//       width: 300px;
+//       text-transform: capitalize;
+//       animation: text-up 12s linear infinite;
+//       transform: translateY(100px);
+//       animation-delay: 0s;
+//       @media screen and (max-width: 786px) {
+//         width: 200px;
+//         font-size: small;
+//         top: 20%;
+//         h1 {
+//           font-size: 1.5rem;
+//           margin-bottom: 10px;
+//         }
+
+//         p {
+//           font-size: 12px;
+//           line-height: 18px;
+//         }
+//       }
+
+//       h1 {
+//         font-size: 2.5rem;
+//         margin-bottom: 20px;
+//       }
+
+//       p {
+//         font-size: 18px;
+//         line-height: 28px;
+//       }
+//     }
+
+//     .slider-text-right {
+//       position: absolute;
+//       top: 30%;
+//       right: 4%;
+//       color: #ffffff;
+//       width: 200px;
+//       text-transform: capitalize;
+//       animation: text-up 12s linear infinite;
+//       transform: translateY(100px);
+//       animation-delay: 0s;
+//       @media screen and (max-width: 786px) {
+//         width: 100px;
+//         font-size: small;
+//         top: 20%;
+//         h1 {
+//           font-size: 1.5rem;
+//           margin-bottom: 10px;
+//         }
+
+//         p {
+//           font-size: 12px;
+//           line-height: 18px;
+//         }
+//       }
+
+//       .text {
+//         padding-top: 22px;
+//         padding-right: 10px;
+//       }
+
+//       h1 {
+//         font-size: 2.5rem;
+//         margin-bottom: 20px;
+//       }
+
+//       p {
+//         font-size: 18px;
+//         line-height: 28px;
+//       }
+//     }
+//   }
+// }
+
+// .slider-two {
+//   animation: slider-two 12s linear infinite;
+
+//   .slider-two-image {
+//     background-image: url("./1.3.jpg");
+
+//     .slider-text {
+//       animation-delay: 3s;
+//     }
+//     .slider-text-right {
+//       animation-delay: 3s;
+//     }
+//   }
+// }
+
+// .slider-three {
+//   animation: slider-three 12s linear infinite;
+
+//   .slider-three-image {
+//     background-image: url("./1.8.jpg");
+
+//     .slider-text {
+//       animation-delay: 6s;
+//     }
+//     .slider-text-right {
+//       animation-delay: 6s;
+//     }
+//   }
+// }
+
+// .slider-four {
+//   animation: slider-four 12s linear infinite;
+
+//   .slider-four-image {
+//     background-image: url("./1.5.jpg");
+
+//     .slider-text {
+//       animation-delay: 9s;
+//     }
+//     .slider-text-right {
+//       animation-delay: 9s;
+//     }
+//   }
+// }
+
+// @keyframes text-up {
+//   // 10% {
+//   //   transform: translateY(0px);
+//   // }
+
+//   // 100% {
+//   //   transform: translateY(0px);
+//   // }
+// }
+
+// @keyframes zoom-out {
+//   100% {
+//     width: 100%;
+//   }
+// }
+
+// @keyframes slider-one {
+//   0% {
+//     visibility: visible;
+//   }
+
+//   25% {
+//     visibility: hidden;
+//   }
+
+//   50% {
+//     visibility: hidden;
+//   }
+
+//   75% {
+//     visibility: hidden;
+//   }
+
+//   100% {
+//     visibility: visible;
+//   }
+// }
+
+// @keyframes slider-two {
+//   0% {
+//     visibility: hidden;
+//   }
+
+//   25% {
+//     visibility: hidden;
+//   }
+
+//   50% {
+//     visibility: visible;
+//   }
+
+//   75% {
+//     visibility: hidden;
+//   }
+
+//   100% {
+//     visibility: hidden;
+//   }
+// }
+
+// @keyframes slider-three {
+//   0% {
+//     visibility: hidden;
+//   }
+
+//   25% {
+//     visibility: hidden;
+//   }
+
+//   50% {
+//     visibility: hidden;
+//   }
+
+//   75% {
+//     visibility: visible;
+//   }
+
+//   100% {
+//     visibility: hidden;
+//   }
+// }
+
+// @keyframes slider-four {
+//   0% {
+//     visibility: hidden;
+//   }
+
+//   25% {
+//     visibility: hidden;
+//   }
+
+//   50% {
+//     visibility: hidden;
+//   }
+
+//   75% {
+//     visibility: hidden;
+//   }
+
+//   100% {
+//     visibility: visible;
+//   }
+// }
+
+// /*
+// https://images.pexels.com/photos/248747/pexels-photo-248747.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
+
+
+// https://images.unsplash.com/photo-1587726763541-d8e58f4fb2fb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80
+
+// https://images.pexels.com/photos/1413412/pexels-photo-1413412.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
+
+// https://images.pexels.com/photos/2240766/pexels-photo-2240766.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500 */
+
+// .header {
+//   position: absolute;
+//   top: 5vh;
+//   display: flex;
+//   width: 100%;
+//   color: #ffffff;
+//   z-index: 100;
+//   justify-content: space-between;
+// }
+
+// .pr-40 {
+//   @media screen and (max-width: 786px) {
+//     padding-right: 10px;
+//   }
+//   padding-right: 40px;
+// }
+
+// .pl-40 {
+//   @media screen and (max-width: 786px) {
+//     padding-left: 10px;
+//   }
+//   padding-left: 40px;
+// }
+
+// .footer {
+//   @media screen and (max-width: 786px) {
+//     display: block;
+//     div {
+//       justify-content: center;
+//     }
+//   }
+//   position: absolute;
+//   bottom: 5vh;
+//   display: flex;
+//   width: 100%;
+//   color: #ffffff;
+//   justify-content: space-between;
+//   text-align: center;
+// }
+
+// .footer-page-bottom {
+//   @media screen and (max-width: 786px) {
+//     bottom: 1vh;
+//   }
+//   position: absolute;
+//   bottom: 5vh;
+//   display: flex;
+//   width: 100%;
+//   color: #ffffff;
+//   justify-content: center;
+//   text-align: center;
+// }
+
+// .pr-2 {
+//   padding-right: 2px;
+// }
+
+// .pt-5 {
+//   padding-top: 5px;
+// }
+
+// .pr-10 {
+//   padding-right: 10px;
+// }
+
+// .pr-15 {
+//   padding-right: 15px;
+// }
+
+// .pt-2 {
+//   padding-top: 2px;
+// }
+
+// .d-flex {
+//   display: flex;
+// }
+
+// .header-yellow {
+//   height: 27px;
+//   width: 24px;
+//   border: 2px solid yellow;
+// }
+
+// .footer-page-no {
+//   height: 23px;
+//   border: 2px solid white;
+//   border-radius: 47px;
+//   padding: 3px;
+//   font-size: x-small;
+//   width: 20px;
+// }
+
+// .footer-page-no-div {
+//   @media screen and (max-width: 786px) {
+//     justify-content: center;
+//     margin-left: 50%;
+//     padding-top: 5px;
+//     padding-bottom: 5px;
+//   }
+// }
+
+// .footer-text {
+//   @media screen and (max-width: 786px) {
+//     font-size: small;
+//   }
+//   font-size: 12px;
+//   padding-right: 15px;
+// }
+
+// .font-size-small {
+//   font-size: 12px;
+// }
+
+// .filter-icon {
+//   .MuiSvgIcon {
+//     transform: rotate(269deg);
+//   }
+// }
+
+// .button-exposide {
+//   padding: 6px;
+//   border: 1 solid white;
+//   font-size: 12px;
+//   color: white;
+//   background: transparent;
+// }
+
+// .cursor-pointer {
+//   cursor: pointer;
+// }
+
+.section {
+  position: relative;
+  max-width: 920px;
+  min-height: 75vh;
+  padding: 40px;
+  margin: auto;
+  background-color: #48c9b0;
+  color: #ffffff;
+}
+.section.bg-static {
+  background-color: #85c1e9;
+  background-image: url(https://webmadewell.com/wp-content/uploads/2018/07/img-blog-background-move-scrolling-bg.png);
+  background-size: cover;
+  background-position: center;
+}
+.section .bg-move {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: auto;
+  width: 100%;
+  background-image: url(https://webmadewell.com/wp-content/uploads/2018/07/img-blog-background-move-scrolling-boat.png);
+  background-size: cover;
+  background-position: center;
+}

@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
-
+import './App.scss';
+import MenuIcon from '@material-ui/icons/Menu';
+import FacebookIcon from '@material-ui/icons/Facebook';
+import InstagramIcon from '@material-ui/icons/Instagram';
+import YouTubeIcon from '@material-ui/icons/YouTube';
+import FilterListIcon from '@material-ui/icons/FilterList';
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div>
+           <div class="section">
+                Scroll down to see the effect
+            </div>
+            <div class="section bg-static">
+                <div class="bg-move"></div>
+            </div>
+            <div class="section">
+                The boat image is moving only when scrolling.
+            </div>
+        </div>
+    );
 }
 
 export default App;
